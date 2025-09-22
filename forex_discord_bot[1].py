@@ -175,7 +175,7 @@ def main():
     import os
     
     # Get webhook URL from environment variable or use default
-    webhook_url = os.getenv('DISCORD_WEBHOOK_URL', 'https://discord.com/api/webhooks/1418165062643880027/kx7vkqsNJPYzfyHpgqoNA7yPXF3C3K7Acl5skRUJ3lkqlmNm5amMGQymIhKt3DVz8pq7')
+    webhook_url = os.getenv('DISCORD_WEBHOOK_URL', '')
     
     # Get current date URL
     url = get_current_date_url()
