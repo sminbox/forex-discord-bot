@@ -1,0 +1,1 @@
+worker: python forex_discord_bot.py
